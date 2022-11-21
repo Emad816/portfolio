@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Emad Ramadan</title>
+</head>
+<body>
+    <!-- start header -->
+    <!-- <header>
+        <div class="container">
+            <a href="">
+                <img src="img/goo.png" alt="" class="logo">
+            </a>
+            <li class="fal fa-stream toggle"></i>
+            <div class="menu">
+                <a class="active"  href="">home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Portflio</a>
+            </div>
+            <a class="contact">Contact</a>
+        </div>
+    </header> -->
+
+    <nav id="mainNav">
+        <div class="container">
+            <a href="./index.html">
+                <img src="img/goo.png" alt="website_logo" class="logo" />
+            </a>
+            <div id="menu">
+                <a class="active" id="link1" >Home</a>
+                <a  id="link2" >About</a>
+                <a  id="link3">Services</a>
+                <a  id="link4">Portflio</a>
+            </div>
+            <a class="contact" onclick="resetBtns(this.id)" id="cntct">Contact</a>
+        </div>
+    </nav>
+    <!-- end header -->
+    <!-- start landing -->
+    <div class="background-imges">
+        <img loading="lazy" class="back" src="img/back-ground.jpg" />
+        <img loading="lazy" class="middel" src="img/rqwr.png" />
+        <img loading="lazy" class="front" src="img/emad.png" />
+        <!-- <div class="scrool-bottom">
+          <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+          <lord-icon class="style-scrool" src="https://cdn.lordicon.com/wtfdpwey.json" trigger="loop"
+            colors="primary:#ffffff,secondary:#ffffff" style="width: 120px; height: 250px">
+          </lord-icon>
+        </div> -->
+      </div>
+    <!-- end landing -->
+    <!-- start about -->
+   <div class="about" id="link2">
+    <div class="title">ABOUT</div> 
+    <!-- <div class="ani">
+      <svg>
+        <path></path>
+      </svg>
+      <svg>
+        <path></path>
+      </svg>
+    </div> -->
+    <div class="container">
+        <div class="info">
+            <h1>Hi, I'm Emad Ramadan</h1>
+        <h2>Front End Developer | Graphic Designer | Video Editor | UI / UX</h2>
+        <p>
+            High level experience in web design, development
+            knowladge, graphic design ,and problem solving
+        </p>
+        <img src="img/about.jpg" alt="">
+        </div>
+        <div class="skill">
+            <div class="our-skills" id="our-skills">
+                <div class="container">
+                    <!-- <img src="img/avatar-05.png" alt=""> -->
+                  <div class="skills">
+                    <div class="skill">
+                      <h3>HTML <span>90%</span></h3>
+                      <div class="the-progress">
+                        <span style="width: 90%;" data-width="90%"></span>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>CSS <span>85%</span></h3>
+                      <div class="the-progress">
+                        <span style="width: 85%;" data-width="85%"></span>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>JavaScript <span>60%</span></h3>
+                      <div class="the-progress">
+                        <span style="width: 60%;" data-width="60%"></span>
+                      </div>
+                    </div>
+                    <div class="skill">
+                      <h3>cpp <span>80%</span></h3>
+                      <div class="the-progress">
+                        <span style="width: 80%;" data-width="80%"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </div>
+   </div>
+    <!-- end about -->
+    <!-- start service -->
+    <div class="ser">
+        <div class="title">Services</div>
+        <div class="container">
+            
+                <div class="box" style="border-bottom-right-radius: 50px;">
+                    <img src="img/web-design.png" alt="">
+                    <h3>Web design</h3>
+                    <p>
+                        I Can Provide Clean Code And Pixel Perfect Design
+                        . I Also Make The Website More & More 
+                        Interactive With Web Animation
+                    </p>
+                </div>
+                <div class="box" style="border-bottom-left-radius: 50px;" >
+                    <img src="img/brush-pen.png" alt="">
+                    <h3>UI / UX</h3>
+                    <p>
+                        Lorem ipsum dolor 
+                        sit amet consectetur adipisicing elit.
+                         Dignissimos nesciunt accusamus, pariatur 
+                         architecto, iure quaerat iusto ipsum consequatur,
+                          
+                        .</p>
+                </div>
+                <div class="box" style="border-top-right-radius: 50px;">
+                    <img src="img/pen-tool.png" alt="">
+                    <h3>Graphic design</h3>
+                    <p>
+                        Lorem ipsum dolor 
+                        sit amet consectetur adipisicing elit.
+                         Dignissimos nesciunt accusamus, pariatur 
+                         architecto, iure quaerat iusto ipsum consequatur,
+                          
+                        .</p>
+                </div>
+                <div class="box" style="border-top-left-radius: 50px;">
+                    <img src="img/video.svg" alt="" class="vid" style="padding:18px; ">
+                    <h3>Video Editor</h3>
+                    <p>
+                        Lorem ipsum dolor 
+                        sit amet consectetur adipisicing elit.
+                         Dignissimos nesciunt accusamus, pariatur 
+                         architecto, iure quaerat iusto ipsum consequatur,
+                          
+                        .</p>
+                </div>
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- start port -->
+    <div class="por">
+        <div class="title">Portfolio</div>
+        
+        <div class="container">
+          <p>
+            Here you can see some of my completed
+            <br>
+            work in various fields ... enjoy
+        </p>
+            <div class="work">
+                <a href="" class="active">All</a>
+                <a href="">Web Design</a>
+                <a href="">Graphic Design</a>
+                <a href="">Video Editor</a>
+            </div>
+        </div>
+        <div class="imgs">
+          <div class="box">
+              <img src="img/fccc.PNG" alt="">
+              <div class="caption">
+                  <a href=""><h4>FCI</h4></a>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/port.PNG" alt="">
+              <div class="caption">
+                  <h4>Portfolio</h4>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/fc.PNG" alt="">
+              <div class="caption">
+                  <a href="https://emad816.github.io/fci/" target="_blank"><h4>FCI-2</h4></a>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/leon.PNG" alt="">
+              <div class="caption">
+                  <h4>leon template</h4>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/casper.PNG" alt="">
+              <div class="caption">
+                  <h4>casper template</h4>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/temo.PNG" alt="">
+              <div class="caption">
+                  <h4>emad world</h4>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/vola.PNG " alt="">
+              <div class="caption">
+                  <a href="https://emad816.github.io/VELOCITY/" target="_blank"><h4>volacity template</h4></a>
+                  <p>Web Design</p>
+              </div>
+          </div>
+          <div class="box">
+              <img src="img/doc.PNG" alt="">
+              <div class="caption">
+                  <a href="https://emad816.github.io/medicine/" target="_blank"><h4>Medicine Center</h4></a>
+                  <p>Web Design</p>
+              </div>
+          </div>
+        </div>
+        <a href="#" class="more">more</a>
+      </div>  
+    </div>
+    <!-- end port -->
+    <!-- start footer -->
+    <div class="footer">
+        <div class="container">
+          <div class="box">
+            <h3>EmaD</h3>
+            <ul class="social">
+              <li>
+                <a href=" https://www.facebook.com/TeMo0o29" class="facebook" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href=" " class="twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href=" " class="youtube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+            <p class="text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur
+            </p>
+          </div>
+          <div class="box">
+            <ul class="links">
+              <li><a href=" ">Important Link 1</a></li>
+              <li><a href=" ">Important Link 2</a></li>
+              <li><a href=" ">Important Link 3</a></li>
+              <li><a href=" ">Important Link 4</a></li>
+              <li><a href=" ">Important Link 5</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="line">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <div class="info">Egypt, sohag, Inside akhmim, Room Number 220</div>
+            </div>
+            <div class="line">
+              <i class="far fa-clock fa-fw"></i>
+              <div class="info">Business Hours: From 10:00 To 18:00</div>
+            </div>
+            <div class="line">
+              <i class="fas fa-phone-volume fa-fw"></i>
+              <div class="info">
+                <span>01553091557</span>
+                <span>01553091557</span>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+          <p class="copyright">Made With love By <span class="emad">EmaD</span>  ramadan</p>
+        </div>  
+    <!-- end footer -->
+</body>
+</html>
